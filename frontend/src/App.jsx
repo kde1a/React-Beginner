@@ -1,11 +1,13 @@
+
 import './App.css'
+import MovieCard from './components/MovieCard'
 
 function App() {
   return (
-    <div>
-      <p>Hello World</p>
-    </div>
-  )
+    <>
+      <MovieCard movie ={{title: "Tims Film", release_date:"2023", }} />
+    </>
+  );
 }
 
 export default App
